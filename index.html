@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,35 +9,60 @@
   <body>
     <div class="layout">
       <section class="hero">
-        <h1 class="hero-text">
-          <span>Yangon.</span>
-          
-        </h1>
-        <!--<div class="hero-bg"></div>-->
-        
-        <p class="hero-text-p" >The name <span >Yangon</span> is derived from the combination <br> of the Burmese words yan and koun ,
-          <br> which mean <span >'enemies'</span> and <span >' run out of ',</span> respectively. This word combination can be translated as 'End of Strife'.</p>
+        <div style="display: flex; justify-content: flex-end;">
+          <h1 class="hero-text">
+            <span>Yangon.</span>
+          </h1>
+          <p class="hero-text-p">
+            The name <span>Yangon</span> is derived from the combination
+            of the Burmese words yan and koun, which mean <span>'enemies'</span> and <span>'run out of'</span>,
+            respectively. This word combination can be translated as 'End of Strife'.
+          </p>
+        </div>
       </section>
+
+     <div>
       <section class="section-one">
-        <div class="sec-one-text-effect" data-hidden>
-          <h2>Yangon</h2>
-          <p> was founded as Dagon in the early 11th century by <span class="mini-text">the Mon people,</span>who inhabited Lower Burma at that time. </p>
-          <p>Dagon became an important pilgrimage pagoda town, starting in the 14th century, during <span class="mini-text">the Hanthawaddy Kingdom.</span></p> 
-          <p>Notable governors of Dagon included Princess Maha Dewi, who ruled the town from 1364 to 1392,and her grandniece, <span class="mini-text">Shin Saw Pu,</span> who later became <span class="mini-text">the only female queen</span> regnant in Burmese history.</p>
-        </div>
-        <div class="sec-one-text-effect two">
-          <h2>Colonial Rangoon (1852–1948)</h2>
-          <p>The <span class="mini-text">British</span> captured Yangon and all of Lower Burma in the Second Anglo-Burmese War of 1852, and subsequently transformed Yangon into the commercial and political hub of British Burma. </p>
-          <p>After the war, the British moved the capital of British Burma from <span class="mini-text">Mawlamyine</span> to <span class="mini-text">Yangon.</span></p> 
-          <p> Yangon became <span class="mini-text">the capital of all British-ruled Burma</span> after the British had captured Upper Burma in the Third Anglo-Burmese War of 1885.</p>
+        <div class="sec-one-text-effect" >
+          <h2 >Yangon</h2>
+          <p data-hidden> was founded as Dagon in the early 11th century by <span class="mini-text">the Mon people,</span>
+            who inhabited Lower Burma at that time.
+      
+          <p data-hidden>Dagon became an important pilgrimage pagoda town, starting in the 14th century, during 
+            <span class="mini-text">the Hanthawaddy Kingdom.</span>
+          </p>
+          <p >Notable governors of Dagon included Princess Maha Dewi, who ruled the town from 1364 to 1392, 
+            and her grandniece, <span class="mini-text">Shin Saw Pu,</span> who later became 
+            <span class="mini-text">the only female queen</span> regnant in Burmese history.
+          </p>
+          <p data-hidden>The <span class="mini-text">British</span> captured Yangon and all of Lower Burma 
+            in the Second Anglo-Burmese War of 1852, and subsequently transformed Yangon 
+            into the commercial and political hub of British Burma.
+          </p>
+          <p data-hidden>After the war, the British moved the capital of British Burma from 
+            <span class="mini-text">Mawlamyine</span> to <span class="mini-text">Yangon.</span>
+          </p>
+          <p data-hidden> Yangon became <span class="mini-text">the capital of all British-ruled Burma</span> 
+            after the British had captured Upper Burma in the Third Anglo-Burmese War of 1885.
+          </p>
         </div>
       </section>
-      <section class="section-two"></section>
-      <section class="section-three"></section>
+     </div>
+      <section class="section-two">
+        <div class="image-overlay"></div>
+        <div class="sec-2-text"></div>
+        <img src="./assets/photos/one.jpg" alt="" data-hidden="">
+      </section>
+      
+      <section class="section-three"><h1>hi</h1></section>
     </div>
+
+    <!-- External Scripts -->
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/gsap.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/split-type@0.3.4/umd/index.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1/bundled/lenis.min.js"></script>
     <script src="assets/script.js"></script>
   </body>
 </html>
+ 
